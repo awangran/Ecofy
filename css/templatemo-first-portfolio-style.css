@@ -1188,3 +1188,48 @@ strong {
 #nav2{
   color: #717275;
 }
+
+/*QUIZ CSS*/
+
+.question{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+.answers label{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.slide{
+  position: center;
+  justify-content: center;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 40px;
+}
+
+.centerquiz
+{
+  justify-content: center;
+  position: center;
+  text-align: center;
+}
