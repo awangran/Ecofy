@@ -1224,7 +1224,7 @@ h1{
   display: block;
   margin-bottom: 10px;
 }
-button{
+
   .custom-btn,
 .navbar .custom-btn {
   font-size: var(--p-font-size);
@@ -1279,8 +1279,8 @@ button{
 .custom-link:hover {
 	background-color: var(--secondary-color);
 }
-}
-button:hover{
+
+.button:hover{
 	background-color: #38a;
 }
 .slide{
@@ -1310,4 +1310,18 @@ button:hover{
   align-items: center;
   text-align: center;
 
+}
+
+#centervid{
+  display: flex;
+  position: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.map{
+  display: flex;
+  position: center;
+  justify-content: center;
+  text-align: center;
 }
