@@ -1233,3 +1233,10 @@ strong {
   position: center;
   text-align: center;
 }
+
+.map{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: center;
+}
