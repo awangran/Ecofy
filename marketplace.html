@@ -24,6 +24,22 @@
         <link href="css/templatemo-first-portfolio-style.css" rel="stylesheet">
 
         <link href="https://ipinfo.io/181.235.82.3/json?token=45045d6fba64ad">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+        <script src="js/recipe.js" defer></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="others.css">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="recipe.js" defer></script>
+
         
 <!--
 
@@ -210,7 +226,26 @@ https://templatemo.com/tm-578-first-portfolio
 
                     </div>
                 </div>
+                <div class="container">
+                    <h1 class="text-lg"> Ma-ma-mia! </h1>
+  <h4 id="mamamia">No dejes que tu comida se desperdicie. Escribe cualquier alimento que esté a punto de echarse a perder y te daremos una receta.</h3>
+  <a href="/index.html"> 
+    <span class="home"> </span>
+  </a>
+  <div class="input-group col-8 offset-2">
+    <input type="text" class="form-control" placeholder="Busca una receta" id="search"
+      aria-label="Recipient's username" aria-describedby="button-addon2">
+    <div class="input-group-append">
+      <button class=" btn btn-dark" type="button" onclick="sendApiRequest()">Buscar</button>
+    </div>
+  </div>
+
+  <div id="content"> 
+  </div>
+
+                </div>
             </section>
+
 
 
         </main>
