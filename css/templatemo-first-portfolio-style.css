@@ -613,7 +613,7 @@ strong {
 
 .clients-image {
   display: block;
-  max-width: 100px;
+  max-width: 200px;
   margin: auto;
   transition: all ease 0.2s;
 }
@@ -1232,4 +1232,18 @@ strong {
   justify-content: center;
   position: center;
   text-align: center;
+}
+
+.map{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: center;
+}
+
+#centervid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: center;
 }
