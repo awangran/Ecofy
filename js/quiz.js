@@ -107,32 +107,31 @@
     const submitButton = document.getElementById('submit');
     const myQuestions = [
       {
-        question: "Who invented JavaScript?",
+        question: "¿Qué estrategias incitan al consumismo?",
         answers: {
-          a: "Douglas Crockford",
-          b: "Sheryl Sandberg",
-          c: "Brendan Eich"
+          a: "Tiendas de segunda mano",
+          b: "Fast-fashion",
+          c: "Comercios locales"
+        },
+        correctAnswer: "b"
+      },
+      {
+        question: "Para apoyar directamente a los agricultores, se debe comprar:",
+        answers: {
+          a: "Por medio de empresas multinacionales",
+          b: "En supermercados de cadena",
+          c: "Directamente con los agricultores"
         },
         correctAnswer: "c"
       },
       {
-        question: "Which one of these is a JavaScript package manager?",
+        question: "¿En cuánto timepo se descompone un pitillo plástico en la Tierra?",
         answers: {
-          a: "Node.js",
-          b: "TypeScript",
-          c: "npm"
+          a: "1 día",
+          b: "1000 años",
+          c: "10 años",
         },
-        correctAnswer: "c"
-      },
-      {
-        question: "Which tool can you use to ensure code quality?",
-        answers: {
-          a: "Angular",
-          b: "jQuery",
-          c: "RequireJS",
-          d: "ESLint"
-        },
-        correctAnswer: "d"
+        correctAnswer: "b"
       }
     ];
   
