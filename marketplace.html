@@ -6,7 +6,6 @@
 
         <meta name="description" content="">
         <meta name="author" content="Ecofy">
-
         <title>Ecofy</title>
 
         <!-- CSS FILES -->
@@ -23,6 +22,8 @@
         <link href="css/magnific-popup.css" rel="stylesheet">
 
         <link href="css/templatemo-first-portfolio-style.css" rel="stylesheet">
+
+        <link href="https://ipinfo.io/181.235.82.3/json?token=45045d6fba64ad">
         
 <!--
 
@@ -241,6 +242,22 @@ https://templatemo.com/tm-578-first-portfolio
         <script src="js/custom.js"></script>
         <script src="js/ip.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
+        <script>
+            var x = document.getElementById("demo");
+            
+            function getLocation() {
+              if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+              } else { 
+                x.innerHTML = "Geolocation is not supported by this browser.";
+              }
+            }
+            
+            function showPosition(position) {
+              x.innerHTML = "Latitude: " + position.coords.latitude + 
+              "<br>Longitude: " + position.coords.longitude;
+            }
+            </script>
 
     </body>
 </html>
